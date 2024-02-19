@@ -324,9 +324,9 @@ if __name__ == '__main__':
     # variables for 70-70-70 filtering
     toolkit_path = os.path.dirname(os.path.realpath(__file__))
     matrix = toolkit_path + "/25p41g.matrix"
-    lib_path = toolkit_path + "/fastalib_Repbase_JS.fasta"
-    cross_match_path = toolkit_path + "/Cross_match/"
-    te_aid_path = toolkit_path + "/TE-Aid-master/"
+    lib_path = toolkit_path + "/your_own_Repbase_lib.fa"
+    cross_match_path = toolkit_path + "/pathToCross_match/"
+    te_aid_path = toolkit_path + "/pathToTE-Aid/"
     tolerance = 0.10
     score = 300
 
